@@ -44,7 +44,7 @@ body {
     display: inline-block;
     margin-bottom: 20px;
     padding: 10px 30px;
-    background-color: rgb(0, 155, 252);
+    background-color: #965a05;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -54,7 +54,7 @@ body {
 }
 
 .tombol-header:hover {
-    background-color: rgb(0, 115, 186);
+    background-color: #6d4103;
 }
 
 .container-section {
@@ -239,6 +239,9 @@ body {
 }
 
 @media (max-width: 576px) {
+    .container-header{
+        height: 440px;
+    }
     .item1-header {
         max-width: 70%; /* Membuat lebar maksimum menjadi 100% dari lebar kontainer */
         position: relative;
